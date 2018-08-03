@@ -1,0 +1,17 @@
+* What went wrong:
+A problem occurred configuring root project 'android'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not resolve com.android.tools.build:gradle:2.2.1.
+     Required by:
+         project :
+      > Could not resolve com.android.tools.build:gradle:2.2.1.
+         > Could not get resource 'https://jcenter.bintray.com/com/android/tools/build/gradle/2.2.1/gradle-2.2.1.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/android/tools/build/gradle/2.2.1/gradle-2.2.1.pom'.
+               > Connect to jcenter.bintray.com:443 [jcenter.bintray.com/108.168.243.150] failed: Connection timed out: connect
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+Picked up _JAVA_OPTIONS: -Xmx2g
+
+
+همه چیز کاملابرسی شده و درسته ولی با این ارور رو به رو شدم باید چی کار کنم
